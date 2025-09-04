@@ -1,0 +1,33 @@
+body {
+    font-family: "Segoe UI", sans-serif;
+    background-color: pink;
+}
+
+h1,h2 {
+    font-family: "Segoe UI", sans-serif;
+    
+
+}
+
+ul li {
+    list-style-type: 😺;
+
+}
+
+figure img{
+    width:300px;
+}
+
+.bold{
+    font-weight: bold;
+
+}
+
+hr {
+    border: None;
+    border-top: 5px dotted darkblue;
+}
+
+.italic {
+    font-style: italic;
+}

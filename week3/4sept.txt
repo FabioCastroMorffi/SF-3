@@ -1,0 +1,39 @@
+Review Last class
+-----------------
+Relative Path Practice:
+    1. -> src="home/jono/work/img.jpg"
+    2. -> src="../../usr/lib"
+    
+Adding a link to another page of the same website:
+    1. -> <a href="pages/about.html"
+
+STYLE CSS
+----------
+Three ways to style:
+    1. Inline (before css was separated, deprecated)
+    2. Internal(ok for testing, <style tag>
+    3. External(in a different file .css)
+Todays Tag:
+    link tag (to review) ----> <link rel="stylesheet" type="text/css"> 
+
+CSS terminology:
+    Example: p {
+                color: red;
+            }
+    p -> 
+    color -> 
+    red -> 
+    whole thing -> 
+
+Colors in css:
+    1. use the actual name(only about 150 colors u can write the name of)
+    2. Hexadecimal (#ff0000)
+    3. Decimal (rgb(255,0,0) -> red)
+    4. Percentage rgb(100%,0,0)
+
+Other settings for color:
+    1. Transparency
+
+
+
+
