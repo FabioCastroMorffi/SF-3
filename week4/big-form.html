@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Form Practice - Big Form</title>
+	<link rel="stylesheet" href="https://unpkg.com/bamboo.css">
+  </head>
+  <body>
+	<header>
+		<h1>Form Practice - Big Form</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="">Basic Form</a></li>
+			<li><a href="">Big Form</a></li>
+		</ul>
+	</nav>
+	<main>
+		<h2>Form Practice</h2>
+		<img src="brodie.png" alt="gray cat"/>
+		<form method="get" action="https://httpbin.org/get">
+			<fieldset>
+				<legend>Basic Questions</legend>
+				<p>
+					<label for="name">Name</label>
+					<input type="text" name="name" id="name"/>
+				</p>
+				<p>
+					<label for="email">Email</label>
+					<input type="email" name="email" id="email"/>
+				</p>
+				<p>
+					<label for="pets">Choice</label>
+					<select id="pets">
+						<option>Choose an option</option>
+						<option value="cat">Cat</option>
+						<option>Dog</option>
+
+					</select>
+				</p>
+			</fieldset>
+			<fieldset>
+				<legend>Pick from these options</legend>
+				<ul>
+					<li>
+						<input type="checkbox" id="country" name="music"/>
+						<label for="country">Country</label>
+					</li>
+					<li>
+						<input value="pop" type="checkbox" id="country" name="music"/>
+						<label for="country">Country</label>
+					</li>
+				</ul>
+			</fieldset>
+			<fieldset>
+				<label>Time of Birth</label>
+				<input type="time" id="time" name="Time of Birth"/>
+			</fieldset>
+			<button type="submit">Commoonnnn submitt</button>
+		</form>
+	</main>
+	<footer>
+		<h2>Image attributions</h2>
+		<ul>
+			<li>Cat picture by Lei Lopez, used with permission.</li>
+		</ul>
+	</footer>
+  </body>
+</html>

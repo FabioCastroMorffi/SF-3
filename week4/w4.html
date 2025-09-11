@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>Forms Practice</title>
+    </head>
+    <body>
+        <h1>Doogle Search</h1>
+        <form action="https://www.google.com/search" method="get">
+            <fieldset>
+                <legend>Doogle</legend>
+                <label for="search">Search</label>
+                <input type="search" id="search" name="q">
+            </fieldset>
+            <button type="submit">
+                Search
+            </button>
+        </form>
+        <h2>Form Practice</h2>
+        <form action="https://validator.w3.org/nu/" method="get">
+            <fieldset>
+                <legend>Validate HTML</legend>
+                <label for="validate">URL</label>
+                <input id="validate" type="url" name="doc">
+            </fieldset>
+            <button type="submit">
+                Validate
+            </button>
+        </form>
+    </body>
+</html>
+
+<!--- Personal information should be hidden with POST-->
