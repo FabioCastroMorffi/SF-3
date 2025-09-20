@@ -1,0 +1,10 @@
+The osmotic pressure formula stablishes the amount of force applied to a solution that prevents solvent from moving across a semipermeable membrane. Osmotic pressure can be expressed in ay unit of pressure (pa, atm, etc). Osmotic Pressure (pi) = MRT where M stands for the molar concentration of the solutes (mol/L), R is the ideal gas constant (J/molxK) and T is the temperature in Kelvin (K).
+
+
+Min/Maxes:
+
+Temperature -> Min: 0K
+Concentration of Solutes -> Min: 0 mol/L
+
+
+Image taken from Libretexts 
